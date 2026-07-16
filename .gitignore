@@ -1,0 +1,23 @@
+# Secrets -- never commit real API keys
+.env
+
+# Runtime-generated data -- local only, not source code
+logs/
+data/history.db
+data/*.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+.pytest_cache/
+*.egg-info/
+
+# OS / editor noise
+.DS_Store
+.vscode/
+.idea/
+Thumbs.db
